@@ -3,7 +3,7 @@
 Debian 6.0.10 "Squeeze" i386 (32-bit) and amd64 (64-bit) images for QEMU. Images are 25GiB images in QCOW2 format on which a Debian Squeeze 6.0.10 system has been installed. Images contain a minimum system with only the standard system utilities installed, so there is no graphical desktop environment (although you can always add one if you'd like i.e. Gnome, KDE, etc).
 
 ## Downloads
-32-bit:
+32-bit: https://drive.google.com/open?id=1TI2pEmztU1Hy3bULFq4UReHDjpQvNMSO
 
 64-bit:
 
