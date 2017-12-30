@@ -2,7 +2,7 @@
 A collection of disk images that can be used by the QEMU emulator. If you are installing an OS in QEMU but don't want to go through the whole process of downloading an ISO, preparing a disk image, waiting for the install to complete, etc, you can use one of my prepared images that I have created. In most cases, the images are vanilla installations, meaning they are un-modified from the original installation. If you want to just experiment with QEMU and see what it can do, check out the test-images folder!
 
 ## What is QEMU?
-QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can run operating systems for different CPU architectures regardless of your host CPU's architecture. You can run IA-32 (x86), x86-64, ARM, PowerPC, and lots more! QEMU can be installed on the host computer or ran from a USB flash drive. QEMU makes for a great alternative to VirtualBox and VMware, especially since these two programs are restricted to running guest operating systems for the x86 architecture.
+QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can run operating systems for different CPU architectures regardless of your host CPU's architecture. You can run IA-32 (x86), x86-64, ARM, PowerPC, and lots more! QEMU can be installed on the host computer or can be ran from a USB flash drive. QEMU makes for a great alternative to VirtualBox and VMware, especially since these two programs are restricted to running guest operating systems for the x86 architecture.
 
 ## How do I obtain QEMU?
 - If you use Linux:
@@ -16,7 +16,7 @@ QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can
 - In each directory exists instructions to run their respective disk images.
 
 ## I went to a directory but there was no disk image!
-- There will be a link in the directory's README to download the file seperately.
+- There is a link in the directory's README to download the file(s) seperately.
 
 ## Why are all of the disk images in .7z format?
 - In general, disk images can be fairly large in size. In most cases, .7z format has better compression than .zip and other compression formats
