@@ -10,7 +10,7 @@ QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can
 - If you use Windows:
   - Go to: https://qemu.weilnetz.de/ and go to either the w32 or w64 directory and download one of the .exe files. In general, it's OK to download the most recent installer
   - If you installed it on your PC (not a USB) and you want to access it anywhere from the terminal, add it to your PATH environement variable. This does not happen by default.
-  - If you feel really unconfortable with the command line on Windows, then you can run the setupqemuk70.exe installer. Note that this holds a very old version of QEMU that may not work with all the examples in this repository, so you might as well install a newer version and get used to the command line
+  - If you feel really unconfortable with the command line on Windows, then you can run the setupqemuk70.exe installer. It can be downloaded [here](https://drive.google.com/open?id=1e0A9OmJoRkopfYvsW4dGaUzCx0H_kIwQ). Note that this holds a very old version of QEMU that may not work with all the examples in this repository, so you might as well install a newer version and get used to the command line
 
 ## How do I run the examples in this repository?
 - In each directory exists instructions to run their respective disk images.
