@@ -5,7 +5,7 @@ Debian 6.0.10 "Squeeze" i386 (32-bit) and amd64 (64-bit) images for QEMU. Images
 ## Downloads
 32-bit: https://drive.google.com/open?id=1TI2pEmztU1Hy3bULFq4UReHDjpQvNMSO
 
-64-bit: https://drive.google.com/open?id=1gFtrAYN8KG7O5i1_bwu4x_NRaSg9bjR_
+64-bit: [https://drive.google.com/open?id=1gFtrAYN8KG7O5i1_bwu4x_NRaSg9bjR_]
 
 Un-compress the .7z files to retrieve the .qcow2 images
 
