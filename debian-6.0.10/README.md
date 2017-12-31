@@ -5,7 +5,7 @@ Debian 6.0.10 "Squeeze" i386 (32-bit) and amd64 (64-bit) images for QEMU. Images
 ## Downloads
 32-bit: https://drive.google.com/open?id=1TI2pEmztU1Hy3bULFq4UReHDjpQvNMSO
 
-64-bit:
+64-bit: https://drive.google.com/open?id=1gFtrAYN8KG7O5i1_bwu4x_NRaSg9bjR_
 
 Un-compress the .7z files to retrieve the .qcow2 images
 
@@ -21,8 +21,8 @@ The other installation options are the following:
 - User password:  user
 
 To use these images, you need to install QEMU 1.1.0 (or later) or a recent KVM version. Start QEMU or KVM with the image as argument:
-- 32-bit: `qemu-system-i386 -hda debian-6-squeeze-i386.qcow2`
-- 64-bit: `qemu-system-x86_64 -hda debian-6-squeeze-amd64.qcow2`
+- 32-bit: `qemu-system-i386 -hda debian-6.0.10-i386.qcow2`
+- 64-bit: `qemu-system-x86_64 -hda debian-6.0.10-amd64.qcow2`
 
 When ran on an amd64 host with hardware virtualization, and when the KVM module is loaded and accessible to the user, it is possible to use the -enable-kvm option to run the guest faster. By default QEMU emulates a machine with 128MiB of RAM. The -m option increases or decreases the size of the RAM. If you don't want to start QEMU in graphic mode, you can use the -curses option.
 
