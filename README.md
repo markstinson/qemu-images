@@ -1,6 +1,8 @@
 # qemu-images
 A collection of disk images that can be used by the QEMU emulator. If you are installing an OS in QEMU but don't want to go through the whole process of downloading an ISO, preparing a disk image, waiting for the install to complete, etc, you can use one of my prepared images that I have created. In most cases, the images are vanilla installations, meaning they are un-modified from the original installation. If you want to just experiment with QEMU and see what it can do, check out the test-images folder!
 
+Some of these disk images can even be ran in other emulators, such as the [Limbo PC Emulator App for Android](http://limboemulator.weebly.com/) (which is actually a derivation of the original QEMU emulator). Yes, you can run other operating systems on Android with this! Known images to work in Limbo PC Emulator are: FreeDOS, DSL, and other small linux distros.
+
 ## What is QEMU?
 QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can run operating systems for different CPU architectures regardless of your host CPU's architecture. You can run IA-32 (x86), x86-64, ARM, PowerPC, and lots more! QEMU can be installed on the host computer or can be ran from a USB flash drive. QEMU makes for a great alternative to VirtualBox and VMware, especially since these two programs are restricted to running guest operating systems for the x86 architecture.
 
