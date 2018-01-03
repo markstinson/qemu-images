@@ -4,4 +4,5 @@ A clean install of FreeDOS v1.0 that has not been modified. Un-compress the .7z 
 ## Installation Info
 - 1 GiB total size in QCOW2 format
 - US English
+- FAT32 support
 - Full installation with sources

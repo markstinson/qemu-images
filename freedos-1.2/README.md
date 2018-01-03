@@ -6,4 +6,5 @@ Link: https://drive.google.com/open?id=1V8fn9M98VguyDuhiAtd714rYY7CMHBL9
 ## Installation Info
 - 1 GiB total size in QCOW2 format
 - US English
+- FAT32 support
 - Full installation with sources
