@@ -48,6 +48,8 @@ QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can
   - `qemu-system-i386 -hda myImage.img -m 256`
 
 ## Can I run these images in VirtualBox instead?
-- Yes, but you need to convert the .img or .qcow2 into a .vdi
+- Yes, but there are a couple things you need to do first:
+1. You need to make sure the original image is x86 or x64 compadable, i.e. the image is for the i386 or amd64 architecture, and that the image can originally be ran with the `qemu-system-i386` or `qemu-system-x86_64` command(s)
+2. You need to convert the .img or .qcow2 into a .vdi
   - From raw to vdi: `qemu-img convert myImage.img -O vdi vdisk.vdi`
   - From QCOW2 to vdi: `qemu-img convert -f qcow2 myImage.qcow2 -O vdi vdisk.vdi`
