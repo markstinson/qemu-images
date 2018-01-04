@@ -6,9 +6,9 @@ Kali Linux 2.0 i386 (32-bit) and amd64 (64-bit) images for QEMU. Images are 25Gi
 
 64-bit:
 
-32-bit-light:
+32-bit-light: https://drive.google.com/open?id=1y0hP1fMC6GYlMsetkko9tYs_Zy_PuHWd
 
-64-bit-light:
+64-bit-light: https://drive.google.com/open?id=112gDupqRM_nAFprnq-FvQaEqOGqGPzwO
 
 Un-compress the .7z files to retrieve the .qcow2 images
 
