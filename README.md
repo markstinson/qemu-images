@@ -46,3 +46,8 @@ QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can
 
 - After the installation is done, the system can be booted with:
   - `qemu-system-i386 -hda myImage.img -m 256`
+
+## Can I run these images in VirtualBox instead?
+- Yes, but you need to convert the .img or .qcow2 into a .vdi
+  - From raw to vdi: `qemu-img convert myImage.img -O vdi vdisk.vdi`
+  - From QCOW2 to vdi: `qemu-img convert -f qcow2 myImage.qcow2 -O vdi vdisk.vdi`
