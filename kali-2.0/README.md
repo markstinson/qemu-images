@@ -2,9 +2,9 @@
 Kali Linux 2.0 i386 (32-bit) and amd64 (64-bit) images for QEMU. Images are 25GiB images in QCOW2 format on which a Kali Linux 2.0 system has been installed. The "light" version is a variant of the normal version in which less packages are installed and uses the XFCE desktop environment instead of the default GNOME 3 environment to be able to have a smaller install footprint.
 
 ## Downloads
-32-bit:
+32-bit: https://drive.google.com/open?id=1Jjv9Hhk2Vgs6iu9osXZUl_4XkWKHYwYn
 
-64-bit:
+64-bit: https://drive.google.com/open?id=1juzw7je82MxCMoKyktDvX-XzaOTIVP6f
 
 32-bit-light: https://drive.google.com/open?id=1y0hP1fMC6GYlMsetkko9tYs_Zy_PuHWd
 
