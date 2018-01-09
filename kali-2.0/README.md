@@ -21,5 +21,9 @@ The other installation options are the following:
 - Hostname:       kali
 - Root password:  toor
 
+Run the images with the following where `kali-image` is the image you are using
+- 32-bit: `qemu-system-i386 -hda kali-image.qcow2`
+- 64-bit: `qemu-system-x86_64 -hda kali-image.qcow2`
+
 ### What is the difference between the normal and "light" images?
 - The normal ISO provides the full Kali 2.0 setup using GNOME 3, which now requires 768MB of memory. The light ISO provides a Kali 2.0 setup using XFCE, and a smaller selection of tools
