@@ -23,7 +23,7 @@ QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can
 - There is a link in the directory's README to download the file(s) seperately.
 
 ## Why are all of the disk images in .7z format?
-- In general, disk images can be fairly large in size. In most cases, .7z format has better compression than .zip and other compression formats
+- In general, disk images can be fairly large in size. In most cases, .7z format has better compression than .zip and other compression formats. You will need to use a tool such as 7-zip to extract the disk image.
 
 ## How can I make my own disk image? Can I create one from scratch?
 
