@@ -53,3 +53,6 @@ QEMU (short for Quick Emulator) is an processor emulator. By using QEMU, you can
   2. You need to convert the .img or .qcow2 into a .vdi
      - From raw to vdi: `qemu-img convert myImage.img -O vdi vdisk.vdi`
      - From QCOW2 to vdi: `qemu-img convert -f qcow2 myImage.qcow2 -O vdi vdisk.vdi`
+
+## How can I get disk information (i.e. Type of disk image, virtual size, etc)?
+- `qemu-img info <disk-image-file>`
