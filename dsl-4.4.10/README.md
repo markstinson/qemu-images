@@ -4,6 +4,9 @@ Link: https://drive.google.com/open?id=1QsazdzYIL1EDxt0BhFfRv6VzpWDKyLmH
 
 Extract dsl-4.4.10.7z for the disk image. Run in QEMU with the following: `qemu-system-i386 -hda dsl-4.4.10.qcow2`
 
+## Install Info
+- 1 GiB in total virtual size
+
 The install is so fresh that users have not even been setup.
 
 Here are the steps to take when you first run the system:
