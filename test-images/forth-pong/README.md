@@ -2,7 +2,7 @@
 
 Link: https://drive.google.com/open?id=14paYDcSvqac5X-rlCMKmrXqRwMUOf4vV
 
-Extract `ofpong.7z` and run in QEMU with: `qemu-system-ppc64 -M pseries-2.1 -boot order=d,strict=on -cdrom ofpong.iso
+Extract `ofpong.7z` and run in QEMU with: `qemu-system-ppc64 -M pseries-2.1 -boot order=d,strict=on -cdrom ofpong.iso`
 
 Open Firmware Pong
 ----------------------------------
